@@ -1,0 +1,6 @@
+Model\Person.class
+util\MysqlSessionFactory.class
+Task23.class
+Trigger\Trigger.class
+Dao\PersonDaoImpl.class
+Dao\PersonDao.class
