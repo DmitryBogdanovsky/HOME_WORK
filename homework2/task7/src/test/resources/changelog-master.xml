@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="1" author="d.a.bogdanovsky@gmail.com">
+        <sql>
+            CREATE TABLE IF NOT EXISTS `recipient` (
+            `id` INT NOT NULL AUTO_INCREMENT,
+            `recipient_name` VARCHAR(45) UNIQUE,
+            PRIMARY KEY (`id`)
+            );
+        </sql>
+    </changeSet>
+
+    <changeSet id="2" author="d.a.bogdanovsky@gmail.com">
+        <sql>
+            CREATE TABLE IF NOT EXISTS `expenses` (
+            `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+            `payday` DATE,
+            `recipient_Id` INT NOT NULL,
+            `summa` DOUBLE NULL,
+            CONSTRAINT fk_recipient FOREIGN KEY (recipient_Id)
+            REFERENCES recipient(id)
+            );
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>

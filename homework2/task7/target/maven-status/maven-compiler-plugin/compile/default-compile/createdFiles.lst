@@ -1,0 +1,8 @@
+Dao\Dao.class
+Dao\ExpensesDaoImpl.class
+Model\Expenses.class
+Model\Recipient.class
+Dao\RecipientDaoImpl.class
+BaseMethod.class
+Task7.class
+Data\MysqlJdbcDataSource.class
