@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-init-method="defaultInit"
+       default-destroy-method="defaultDestroy">
+
+        <bean id="car" class="beans.Car" factory-method="getInstance" >
+            <property name="modelName" value="MERCEDES"/>
+            <property name="year" value="2018"/>
+            <property name="color" value="WHITE"/>
+        </bean>
+</beans>
