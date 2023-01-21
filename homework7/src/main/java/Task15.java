@@ -15,7 +15,7 @@ public class Task15 {
                 PersonDaoImpl.class,
                 PersonService.class);
 
-        PersonService personService = annotationContext.getBean("personService", PersonService.class);
+        PersonService personService =  annotationContext.getBean("personService", PersonService.class);
         Person person = new Person(null, "Semen", "Egorov");
         System.out.println(person);
         personService.addPerson(person);

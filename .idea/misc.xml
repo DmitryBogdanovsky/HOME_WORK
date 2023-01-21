@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/homework1/pom.xml" />
+        <option value="$PROJECT_DIR$/homework2/pom.xml" />
+        <option value="$PROJECT_DIR$/homework3/pom.xml" />
+        <option value="$PROJECT_DIR$/homework4/pom.xml" />
+        <option value="$PROJECT_DIR$/homework5/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/homework6/pom.xml" />
+        <option value="$PROJECT_DIR$/homework7/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

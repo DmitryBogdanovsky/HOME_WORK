@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="homework1" />
+        <module name="homework3" />
+        <module name="task8" />
+        <module name="task9" />
+        <module name="homework4" />
+        <module name="homework7" />
+        <module name="homework6" />
+        <module name="task10" />
+        <module name="task2" />
+        <module name="home-work" />
+      </profile>
+      <profile name="Annotation profile for homework2" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+        </processorPath>
+        <module name="Task4" />
+        <module name="Task6" />
+        <module name="Task5" />
+        <module name="Task7" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="home-work" target="1.5" />
+      <module name="homework1" target="11" />
+      <module name="homework2" target="11" />
+      <module name="homework3" target="11" />
+      <module name="homework4" target="11" />
+      <module name="homework5" target="11" />
+      <module name="homework6" target="11" />
+      <module name="homework7" target="11" />
+      <module name="task10" target="11" />
+      <module name="task2" target="11" />
+      <module name="Task4" target="11" />
+      <module name="Task5" target="11" />
+      <module name="Task6" target="11" />
+      <module name="Task7" target="11" />
+      <module name="task8" target="11" />
+      <module name="task9" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -16,12 +16,12 @@ public class PersonService {
 @Autowired
 PersonDao personDao;
 
-    @Transactional
+  @Transactional
     public void addPerson(Person person){
         personDao.addPerson(person);
     }
 
-    @Transactional
+  @Transactional
     public Person findById(Integer id){
         return personDao.findById(id);
     }
