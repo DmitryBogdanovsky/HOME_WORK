@@ -20,7 +20,7 @@
         <property name="hibernate.current_session_context_class">thread</property>
 
         <!-- Mapping with model class containing annotations -->
-        <mapping class="person.model.beans.Person"/>
+        <mapping class="person.model.Person"/>
         <mapping class="person.model.Employee"/>
         <mapping class="person.model.Student"/>
         <mapping class="car.model.Car"/>

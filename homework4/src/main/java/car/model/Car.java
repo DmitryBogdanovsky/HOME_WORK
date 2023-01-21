@@ -25,6 +25,8 @@ public class Car implements Serializable {
             name = "UUID",
             strategy = "org.hibernate.id.UUIDGenerator"
     )
+
+    @Column(name = "id", length = 36)
     private String id;
 
     @Column
